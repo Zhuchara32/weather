@@ -90,8 +90,8 @@ ul {
     width: 25%;
 }
 .item:hover {
-    opacity: .6;
+    opacity: .5;
 }
 .table:hover {
-    opacity: .9;
+    opacity: .8;
 }
