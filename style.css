@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .1s ease-in;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #3399CC;
+    border: solid;
+    border-color: #2B81AC;
+    border-width: 15px;
+    text-align: center;
+}
+.all-content {    
+    width: 80%;
+    margin: 0 auto;
+}
+.weather h1 {
+    color: white;
+    font-size: 35px;
+    text-align: left;
+}
+.weather p {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+}
+.table {
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+    font-size: 0;
+}
+.item {
+    border: solid;
+    border-color: white;
+    border-width: 3px;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    height: 120px;
+    padding-top: 50px;
+}
+.item-paris {
+    background-color: #33CCCC;
+}
+.item-belgrade {
+    background-color: #996699;
+}
+.item-moscow {
+    background-color: #C24747;
+}
+.item-telAviv {
+    background-color: #E2674A;
+}
+.item-cair {
+    background-color: #FFCC66;
+}
+.item-newYork {
+    background-color: #99cc99;
+}
+.item-newDelhi {
+    background-color: #669999;
+}
+.item-sanFrancisco {
+    background-color: #CC6699;
+}
+.item-tokyo {
+    background-color: #339966;
+}
+.item-sydney {
+    background-color: #666699;
+}
+.item-lisbon, .item-sanFrancisco {
+    width: 50%;
+}
+.item-sydney {
+    width: 100%;
+}
+.item-paris, .item-belgrade, .item-moscow, .item-telAviv, .item-cair, .item-newYork, .item-newDelhi, .item-tokyo {
+    width: 25%;
+}
+.item:hover {
+    opacity: .6;
+}
+.table:hover {
+    opacity: .9;
+}
